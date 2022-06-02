@@ -40,6 +40,11 @@ ul > li > a:hover {
   color: #228B22;
 }
 
+a, p, ul, ol, blockquote {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
 
 @font-face {
   font-family: charter;
@@ -74,5 +79,5 @@ ul > li > a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, button, a, p, ul, ol, blockquote {
-  font-family: charter
+  font-family: charter;
 }
