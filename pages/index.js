@@ -34,6 +34,19 @@ export default function Home() {
         <meta name="twitter:title" content="Smart Young BC"/>
         <meta name="twitter:description" content="Smart Young BC: A Vision for the Future of BC."/>
         <meta name="twitter:image" content="https://www.smartyoungbc.com/cover.jpg"/>
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-HC7SBCGV2X`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-HC7SBCGV2X');
+        `,
+          }}
+        />
       </Head>
 
       <main>
