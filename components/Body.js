@@ -95,7 +95,7 @@ export default function Body() {
         <li>Biotech/Medtech: Zymeworks, PocketPills, Medimap, AbCellera, Precision NanoSystems, symvivo, Stemcell Technologies, Acuitas Therapeutics, Starfish Medical</li>
         <li>Agritech: Semios, Lucent BioSciences, Terramera</li>
         <li>Cleantech: Carbon Engineering, NexiiBuilds, General Fusion, Moment Energy</li>
-        <li><a href='https://www.vantechjournal.com/p/vancouver-web3' target='_blank'>Crypto</a>: Dapper Labs, BlockStream, Netcoins, Manifold.xyz, Covalent, NFT artists</li>
+        <li><a href='https://www.vantechjournal.com/p/vancouver-web3' target='_blank'>Crypto</a>: Dapper Labs, LayerZero, Utopia Labs, BlockStream, Netcoins, Manifold.xyz, Covalent, NFT artists</li>
         <li>Entertainment, Metaverse: Thinkific, EA, Phoenix Labs, Ziva Dynamics, Overstory Media Group, ILM, Atomic Cartoons, VR/AR industry, movies/VFX</li>
         <li>What are the resource companies of the future?</li>
       </ul>
