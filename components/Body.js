@@ -41,8 +41,10 @@ export default function Body() {
       <p>To understand how we can attract smart young people, first, we have to understand where we are at a disadvantage to the rest of the world and play to our strengths. BC has low salaries, few multinational companies, relatively bad weather, and a high cost of living, but we have some unique advantages to use.</p>
       <h2>Low Salaries</h2>
       <p>BC has relatively low salaries for top people compared to the competing regions. For example, both Seattle and San Francisco have significantly higher salaries in areas like tech and software development. On top of this, the Canadian dollar is generally weaker than the American one, making earning in the Canadian dollar less appealing. People get distracted by the fact that the salaries for these positions are well above the “average” or “median” salary for a worker in BC. We can't be focused on this. The top people create disproportionate amounts of value, we should care that we can't pay them competitively.</p>
-      <Image src={talent} alt='Talent vs Cost' /> 
-      <p className='text-muted text-center'>Source: <a href='https://www.cbre.us/-/media/cbre/countryunitedstates/us-research/major-reports/2021/scoring-tech-talent-media-folder/2021-scoring-tech-talent.pdf' target='_blank'>CBRE</a></p>
+      <div className='w-100 text-center'>
+        <Image src={talent} alt='Talent vs Cost' layout='responsive' width='100%' height='auto'/> 
+        <p className='text-muted'>Source: <a href='https://www.cbre.us/-/media/cbre/countryunitedstates/us-research/major-reports/2021/scoring-tech-talent-media-folder/2021-scoring-tech-talent.pdf' target='_blank'>CBRE</a></p>
+      </div>
       <h2>Global Headquarters</h2>
       <p>Vancouver is not a hub for global headquarters. Out of the 13 Canadian companies in the <a href='https://fortune.com/global500/2021/search/?fg500_country=Canada' target='_blank'>2021 Fortune Global 500</a>, 0 were located in BC. It is a regional hub for Western Canada in many cases. It does have offices for the largest multinational companies, but it is not their main place of employment. The places we are competing with have those same companies, but with larger footprints.</p>
       <p>Global HQs are valuable not only because they employ large numbers of the most ambitious people, but also because they create talent for the entire ecosystem. If a young person wanted to progress up the career ladder in a specific company, it would probably be best for them to be at the HQ. A lack of large organizational HQs causes a lack of opportunity to progress. This leads to a shortage of senior talent, something that plagued BC in many industries.</p>
@@ -79,7 +81,7 @@ export default function Body() {
       <p>Saying “we want smart young people here” is the first step in making it happen. It rallies other leaders to do the same. It builds trust with smart young people debating staying here or coming here. It shows a vision of BC moving in the right direction.</p>
       <p>Francis Suarez, the Mayor of Miami, is a successful example of a politician doing this. He promoted Miami on social media to an influential group of entrepreneurs, investors, and “tech bros.” He met with them in Miami and helped convince them to move (low taxes, interesting culture, and amazing weather helped).</p>
       <div className='w-100 text-center'>
-        <Image src={miami} alt='Francis Suarez: How Can I Help?' />
+        <Image src={miami} alt='Francis Suarez: How Can I Help?' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>Source: <a href='https://twitter.com/FrancisSuarez/status/1467178693525221377'>Francis Suarez on Twitter</a></p> 
       </div>
       <p>Too many important people in BC are inward-facing. They only care about the opinions of the people close to them and try to influence a local audience. We live in a global world now. The internet has connected everyone around the world. An important person's words can reach the whole world if they want to. You don't just have to tell the people of BC how good you are, you can tell the world how good BC is.</p>
@@ -90,7 +92,7 @@ export default function Body() {
       <p>The traditional economy of BC is strong, largely due to its collection of natural resources from mining, energy, and forestry. We have clean power from hydroelectric and good ports that create a connection with markets worldwide. Much of the province benefits from high real estate prices. There is plenty of construction across the province and lots of jobs to do it.</p>
       <p>Real estate development and services, mid-management at resource companies, finance, law, or “consulting” are common areas for smart young people to go into. These industries provide lots of jobs and attract talent within the province, but they don't attract the top worldwide talent. Every place has their version of them.</p>
       <div className='w-100 text-center'>
-        <Image src={sectorGDP} alt='BC GDP by Sector' />
+        <Image src={sectorGDP} alt='BC GDP by Sector' layout='responsive' width='100%' height='auto'/>
       </div>
       <p>If you believe that great people create great companies, and great companies create a great province, you must have your young smart talent building in industries of the future. That isn't the case for BC today. To make this more of a reality, the government should double down on winning industries and companies of the future. Some examples of the industries and BC companies of the future include:</p>
       <ul>
@@ -103,7 +105,7 @@ export default function Body() {
       </ul>
       <p><a href='https://docs.google.com/spreadsheets/d/1SMy4EziCFdlHskazEoFTjDqh_nk2q8iSQqcZtXZ-sSc/edit?usp=sharing' target='_blank'>Updated list and links to BC's companies of the future</a>. Send me an <a href='mailto:ianvanagas@gmail.com?subject=Smart%20Young%20BC%20Company%20Recommendation' target='_blank'>email</a> if you have recommendations for more.</p>
       <div className='w-100 text-center'>
-        <Image src={futureCompanies} alt='BC Companies of the future' />
+        <Image src={futureCompanies} alt='BC Companies of the future' layout='responsive' width='100%' height='auto'/>
       </div>
       <p>Many of these companies have succeeded by connecting BC's older industries to the future. BC's agriculture industry leads to its Agritech industry. Our movie industry leads to our metaverse industry. In doing so, the talent flows from the past into the future. We should look for more opportunities to make this happen. Use our natural and historical advantages as a springboard into the future. These companies are both the most appealing to smart young people worldwide and are building the future of BC today.</p>
       <p>The tech industry is the fastest growing sector in BC. There will be a <a href='https://biv.com/article/2022/02/tech-health-care-lead-job-growth-bc-forecasts-1m-openings-2031#:~:text=The%20latest%20B.C.%20Labour%20Market,created%20in%20the%20coming%20decade' target='_blank'>projected</a> “140,700 job openings in technology from 2021-31” which is an estimated 14% of new jobs in BC. <a href='https://www2.gov.bc.ca/assets/gov/data/statistics/business-industry-trade/industry/tech_profile_report.pdf' target='_blank'>As of 2019</a>, “B.C.'s high tech sector is responsible for generating around 6.6% of the province's total GDP.” Thirteen private BC tech companies have reached unicorn status of being valued at over $1B since December 2020. It is one of BC's top industries, but lags far behind tech industries in competing regions. It will need talent and capital to continue to scale.</p>
@@ -140,7 +142,7 @@ export default function Body() {
       <p>Beyond scholarship, BC could unlock more talent here by aligning incentives throughout the education journey. Right now the interaction between the government, universities, and students is transactional. The government wants to educate its population, universities want to educate, and students want to get educated. Money flows between all three to make this happen. BC should shift its focus beyond just educating people, and into developing smart young talent.</p>
       <p>Too many smart young people leave BC after high school, and too many leave after University. High schoolers worldwide, and especially in BC, should want to go to University here. University students in BC should want to stay in BC to work or continue to study after they are done with their degree.</p>
       <div className='w-100 text-center'>
-        <Image src={waterloo} alt='Moving to Waterloo' />
+        <Image src={waterloo} alt='Moving to Waterloo' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>Source: <a href='https://twitter.com/altluu/status/1415223821703946245'>Dan Luu on Twitter</a></p> 
       </div>
       <p>We need to think about all of the native BC high school students (and parents) who think going to the US is better. What you can do in the US, you should be able to do in BC. It is mostly about prestige and talent, not a quality of education. Providing more visions of the future for where this province is going would encourage more of them to stay. Having more companies and opportunities here they'd like to work for is critical too. Every talented BC high schooler that goes to a US college instead of a British Columbian one is a failure.</p>
@@ -181,14 +183,14 @@ export default function Body() {
       <p>In the longer term, often all young people need is housing and food. They need the basics covered and then can put their energy into building cool things. To help them with this, we should put money into housing smart young people. We could also lower the regulations on weird housing arrangements. Young people are more willing to live in worse conditions if it means they get to live in a good location, with good people, and save money.</p>
       <p>Where are the hacker houses and weird living arrangements for young people in BC? Could we provide more incentives to do this? I've heard of the massive overly expensive houses in Vancouver being filled up with people as a way to avoid the vacancy tax, but do they exist? <a href='https://twitter.com/BeeHousedao' target='_blank'>BeehouseDAO</a> is an example. They are trying to create the first Web3 Creator House DAO in Vancouver. We need to create more of these living arrangements with purposes. For example, there should be <a href='https://slimemoldtimemold.com/2022/02/17/charter-houses/' target='_blank'>charter houses</a> for entrepreneurs, writers, artists, researchers. Promote smart young people to come here and live in them.</p>
       <div className='w-100 text-center'>
-        <Image src={mansion} alt='Spliting a Mansion for $1000' />
+        <Image src={mansion} alt='Splitting a Mansion for $1000' layout='responsive' width='100%' height='auto'/>
       </div>
       <p>Housing is a key blocker here, but young people are much more flexible on housing arrangements than old people are. We aren't talking about owning houses or housing a young family here. Young people are more willing to live with large groups of other people. They are more willing to live in worse conditions. If we aren't going to build them more housing, we should at least allow them to live in stranger ways.</p>
       <h3>Promote Remote Work</h3>
       <p>Remote work is a trend that took off during COVID, BC didn't do a good enough job capitalizing on it, but that doesn't mean it is too late. BC is beautiful, culturally diverse, has good food, many places are walkable, safe, and has opportunity. We have camping, skiing, water sports, golf, boats, beaches, events, cool neighbourhoods, craft beer, coffee, and more. This appeals to young people and we are good at showing it off. Our tourism industry is proof of this. More resources should be moved towards promoting BC as a remote work destination.</p>
       <p>Top global, future-focused companies like <a href='https://twitter.com/bchesky/status/1483474046847225865?s=20' target='_blank'>Airbnb</a>, Stripe, and <a href='https://blog.coinbase.com/4-reasons-coinbase-is-staying-remote-e48733832312' target='_blank'>Coinbase</a> have all focused increasingly on remote work. Their employees (and prospective employees) want it, and that is a good sign.</p>
       <div className='w-100 text-center'>
-        <Image src={stripeRemote} alt='74% of Stripe hiring remotely' />
+        <Image src={stripeRemote} alt='74% of Stripe hiring remotely' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>Source: <a href='https://twitter.com/patrickc/status/1480647701221896195?s=20'>Patrick Collison on Twitter</a></p> 
       </div>
       <p>Remote work provides smart young people with the flexibility to work for great companies located elsewhere while benefiting from the culture and the beauty of BC. Remote workers are like super-tourists. They spend here and provide value to the people around them here.</p>
@@ -199,13 +201,13 @@ export default function Body() {
       <p>We could put effort into making BC be the most reviewed place online, every restaurant, experience, shop has more reviews than any other place in the world. Make BC the most covered place on Wikipedia. Dominate SEO. Few governments are focusing on this, how many government officials even know what SEO is? We have to think like we are a company competing against other companies.</p>
       <p>To figure out what is working, cities around BC (and the province as a whole) should look at <a href='https://nomadlist.com/north-america' target='_blank'>Nomad List</a>. It is the key source of remote work location data. Many locations throughout BC should aim to be higher on its recommendation list than they are. It is surprising places like Whistler, Kelowna, Tofino, and ski resorts through the province are so far down. Look at the rankings for North America:</p>
       <div className='w-100 text-center'>
-        <Image src={nomad} alt='NomadList North America Rankings' />
+        <Image src={nomad} alt='NomadList North America Rankings' layout='responsive' width='100%' height='auto'/>
       </div>
       <p>To raise their rankings, we should be improving the areas they are ranking for. We should be asking for more reviews. It helps having important people letting the world know we are serious about remote work. Many of the areas we have little to no control over. A few areas we have more control over are safety, lack of crime, “liked by members,” walkability, friendly to foreigners, and importantly, internet.</p>
       <h3>Provide Good Internet Everywhere</h3>
       <p>Good internet makes a big difference. Good internet provides access to everyone (young and old, new and existing). It helps bridge the urban/rural divide if such a thing exists. Could the BC government subsidize <a href='https://www.starlink.com/' target='_blank'>StarLink</a> for citizens (especially if they are young)? Because of BC's mountainous geography, it would likely be cheaper than trying to run high-quality internet everywhere.</p>
       <div className='w-100 text-center'>
-        <Image src={internet} alt='Internet coverage in BC' />
+        <Image src={internet} alt='Internet coverage in BC' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>BC's internet coverage and speeds. Brown is &gt;75% to 100% 50/10 Mbps, Orange is &gt;50% to 75% 50/10 Mbps.</p> 
       </div>
       <p>Better internet opens more of the province up to remote working. It would mean more potential areas to live, cheaper housing in rural areas. Internet access is a big deal to the smart young people of the future. If a place has slow internet, it is immediately out of contention. The internet plugs talent into the world. If talent isn't on the internet it is being wasted, it isn't living up to its potential.</p>
@@ -217,12 +219,12 @@ export default function Body() {
       <p>A big advantage for Canada and BC is that we support so much immigration. We are much more open to immigration than the US is. It's part of Canadian culture. The US had <a href='https://www.dhs.gov/immigration-statistics/special-reports/legal-immigration#:~:text=Lawful%20Permanent%20Residents,-Recent%20Trends&text=Nearly%20112%2C000%20noncitizens%20entered%20the,increase%20from%20FY%202021%20Q1.' target='_blank'>740,000 new permanent residents</a> in 2021 (~0.2% of their population), while Canada had <a href='https://www.canada.ca/en/immigration-refugees-citizenship/news/2021/12/canada-welcomes-the-most-immigrants-in-a-single-year-in-its-history.html' target='_blank'>401,000</a> (~1% of our population). There is a lot of opportunity here, we need more people to capitalize on them.</p>
       <p>Leverage the fact that Vancouver is the one big city in Canada in the same time zone as Seattle, LA, and SF. There are regular direct flights to each of them. American immigration laws are more strict than Canadian ones. There is a layer of talent who would like to be working in North America, especially for tech companies, but can't work in America because of immigration laws.</p>
       <div className='w-100 text-center'>
-        <Image src={estonianRoon} alt='Weaponize Immigration' />
+        <Image src={estonianRoon} alt='Weaponize Immigration' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>Source: <a href='https://twitter.com/tszzl/status/1472740861213437957?s=20' target='_blank'>Roon</a> and <a href='https://twitter.com/seconds_0/status/1385021772529950722' target='_blank'>0.005 Seconds</a> on Twitter</p> 
       </div>
       <p>BC should leverage its stability to be a place people can come in a crisis. When a crisis happens, we should spend money to bring smart young people here. A lot of them could be self-sustaining once they get here, and are therefore only a plane ticket away. We have all types of cultures here that can provide support structures and help people integrate into BC and Canadian culture. Whenever there is a crisis or brain drain from somewhere, we should be at the top of the line supporting smart young people to come here and flourish.</p>
       <div className='w-100 text-center'>
-        <Image src={russia} alt='Russian Immigration' />
+        <Image src={russia} alt='Russian Immigration' layout='responsive' width='100%' height='auto'/>
         <p className='text-muted'>Source: <a href='https://twitter.com/kamilkazani/status/1501721290452963328' target='_blank'>Kamil Galeev on Twitter</a></p> 
       </div>
       <p>Once smart young people want to move to BC, we should let them and help them. We need these people for the future success of our province. We have to capitalize on the advantages we have, while we have them. Making it easy for talent to come here now will be critical to setting up BC for future success.</p>
