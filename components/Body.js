@@ -18,7 +18,6 @@ export default function Body() {
       <h1 id='smartyoungbc' className='pb-2'>Smart Young BC: A Vision for the Future of BC</h1>
       <p className='text-muted'>By Ian Vanagas</p>
       <blockquote>Check out <a href="https://smartyoungbc.substack.com/" target='_blank'>my newsletter</a> for follow-up posts and updates on Smart Young BC.</blockquote>
-      <blockquote>On <b>Thursday June 6th 2024</b>, I am running a Smart Young BC event at UBC Robson Square as part of Vancouver Startup Week. See <a href="https://lu.ma/smartyoungbc-vsw2024" target='_blank'>the event page to sign up and learn more</a>. See you there!</blockquote>
       <p>A strong indicator that BC is moving in the right direction is if <b>smart young people are moving and staying here</b>. Why this metric compared to something like economic health, output, GDP, HDI, debt levels, prices, cultural output, global awards, or something else?</p>
       <ol start="1">
         <li>Many of these factors are out of the control of the province, they are tied to the Canadian or Global decisions more so than the provincial decisions. Provinces don't have much say in banking, international trade, or foreign affairs. We must focus on levers we can control.</li>
